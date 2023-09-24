@@ -88,7 +88,7 @@ export class PlayScene extends Scene {
         // Adds generated stars
 
         this.stars = this.physics.add.group({
-          gravityY: 50,
+          gravityY: 300,
         });
         
         const createStar = () => {
@@ -107,7 +107,7 @@ export class PlayScene extends Scene {
         // Adds generated bombs
 
         this.bombs = this.physics.add.group({
-          gravityY: 300,
+          gravityY: 800,
         });
 
         const createBomb = () => {
